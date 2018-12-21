@@ -13,8 +13,6 @@
 		1DDA2A1621CA5769006C20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A1521CA5769006C20B4 /* Assets.xcassets */; };
 		1DDA2A1921CA5769006C20B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A1721CA5769006C20B4 /* LaunchScreen.storyboard */; };
 		1DDA2A1C21CA5769006C20B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A1B21CA5769006C20B4 /* main.m */; };
-		1DDA2A2621CA576A006C20B4 /* DTTableViewToolExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A2521CA576A006C20B4 /* DTTableViewToolExmapleTests.m */; };
-		1DDA2A3121CA576A006C20B4 /* DTTableViewToolExmapleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A3021CA576A006C20B4 /* DTTableViewToolExmapleUITests.m */; };
 		1DDA2A4D21CA57B2006C20B4 /* DTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A3F21CA57B2006C20B4 /* DTTableViewController.m */; };
 		1DDA2A4E21CA57B2006C20B4 /* DTTableViewBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4021CA57B2006C20B4 /* DTTableViewBaseCell.m */; };
 		1DDA2A4F21CA57B2006C20B4 /* BaseSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4521CA57B2006C20B4 /* BaseSource.m */; };
@@ -22,7 +20,6 @@
 		1DDA2A5121CA57B2006C20B4 /* DTTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4A21CA57B2006C20B4 /* DTTableDataSource.m */; };
 		1DDA2A5221CA57B2006C20B4 /* DTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4B21CA57B2006C20B4 /* DTBaseTableViewController.m */; };
 		1DDA2A5321CA57B2006C20B4 /* DTBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4C21CA57B2006C20B4 /* DTBaseAction.m */; };
-		1DDA2A5621CA5940006C20B4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5421CA593F006C20B4 /* UIView+Frame.m */; };
 		1DDA2A5A21CA5AF2006C20B4 /* FLSettingItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5721CA5AF1006C20B4 /* FLSettingItemTableViewCell.m */; };
 		1DDA2A5B21CA5AF2006C20B4 /* FLSettingItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5921CA5AF2006C20B4 /* FLSettingItemTableViewCell.xib */; };
 		1DDA2A5E21CA5B11006C20B4 /* FLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5D21CA5B11006C20B4 /* FLSettingViewController.m */; };
@@ -31,23 +28,6 @@
 		1DDA2A6621CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A6421CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib */; };
 		BC3353B9C55590F9FC72209E /* libPods-DTTableViewToolExmaple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1DDA2A2221CA576A006C20B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1DDA2A0121CA5767006C20B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DDA2A0821CA5767006C20B4;
-			remoteInfo = DTTableViewToolExmaple;
-		};
-		1DDA2A2D21CA576A006C20B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1DDA2A0121CA5767006C20B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DDA2A0821CA5767006C20B4;
-			remoteInfo = DTTableViewToolExmaple;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1DDA2A0921CA5767006C20B4 /* DTTableViewToolExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTTableViewToolExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +40,8 @@
 		1DDA2A1821CA5769006C20B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DDA2A1A21CA5769006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDA2A1B21CA5769006C20B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1DDA2A2121CA576A006C20B4 /* DTTableViewToolExmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTTableViewToolExmapleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDA2A2521CA576A006C20B4 /* DTTableViewToolExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTableViewToolExmapleTests.m; sourceTree = "<group>"; };
 		1DDA2A2721CA576A006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DDA2A2C21CA576A006C20B4 /* DTTableViewToolExmapleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTTableViewToolExmapleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDA2A3021CA576A006C20B4 /* DTTableViewToolExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTableViewToolExmapleUITests.m; sourceTree = "<group>"; };
 		1DDA2A3221CA576A006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDA2A3F21CA57B2006C20B4 /* DTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableViewController.m; sourceTree = "<group>"; };
@@ -80,8 +58,6 @@
 		1DDA2A4A21CA57B2006C20B4 /* DTTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableDataSource.m; sourceTree = "<group>"; };
 		1DDA2A4B21CA57B2006C20B4 /* DTBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseTableViewController.m; sourceTree = "<group>"; };
 		1DDA2A4C21CA57B2006C20B4 /* DTBaseAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseAction.m; sourceTree = "<group>"; };
-		1DDA2A5421CA593F006C20B4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		1DDA2A5521CA593F006C20B4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		1DDA2A5721CA5AF1006C20B4 /* FLSettingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSettingItemTableViewCell.m; sourceTree = "<group>"; };
 		1DDA2A5821CA5AF1006C20B4 /* FLSettingItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSettingItemTableViewCell.h; sourceTree = "<group>"; };
 		1DDA2A5921CA5AF2006C20B4 /* FLSettingItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLSettingItemTableViewCell.xib; sourceTree = "<group>"; };
@@ -92,7 +68,6 @@
 		1DDA2A6221CA5BE4006C20B4 /* FLSettingItemLogoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSettingItemLogoutCell.m; sourceTree = "<group>"; };
 		1DDA2A6321CA5BE4006C20B4 /* FLSettingItemLogoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSettingItemLogoutCell.h; sourceTree = "<group>"; };
 		1DDA2A6421CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLSettingItemLogoutCell.xib; sourceTree = "<group>"; };
-		1DDA2A6721CA5D8F006C20B4 /* MLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSafe.h; sourceTree = "<group>"; };
 		41510E0F33D2CB90470359D5 /* Pods-DTTableViewToolExmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.debug.xcconfig"; sourceTree = "<group>"; };
 		C33E0532D9F6DE80370C1FCA /* Pods-DTTableViewToolExmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.release.xcconfig"; sourceTree = "<group>"; };
 		C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTTableViewToolExmaple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,20 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3353B9C55590F9FC72209E /* libPods-DTTableViewToolExmaple.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DDA2A1E21CA576A006C20B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DDA2A2921CA576A006C20B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				1DDA2A0921CA5767006C20B4 /* DTTableViewToolExmaple.app */,
-				1DDA2A2121CA576A006C20B4 /* DTTableViewToolExmapleTests.xctest */,
-				1DDA2A2C21CA576A006C20B4 /* DTTableViewToolExmapleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,9 +155,6 @@
 		1DDA2A3E21CA57B2006C20B4 /* BTTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1DDA2A5521CA593F006C20B4 /* UIView+Frame.h */,
-				1DDA2A5421CA593F006C20B4 /* UIView+Frame.m */,
-				1DDA2A6721CA5D8F006C20B4 /* MLSafe.h */,
 				1DDA2A4321CA57B2006C20B4 /* DTBaseAction.h */,
 				1DDA2A4C21CA57B2006C20B4 /* DTBaseAction.m */,
 				1DDA2A4921CA57B2006C20B4 /* BaseSource.h */,
@@ -253,42 +209,6 @@
 			productReference = 1DDA2A0921CA5767006C20B4 /* DTTableViewToolExmaple.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1DDA2A2021CA576A006C20B4 /* DTTableViewToolExmapleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DDA2A3821CA576A006C20B4 /* Build configuration list for PBXNativeTarget "DTTableViewToolExmapleTests" */;
-			buildPhases = (
-				1DDA2A1D21CA576A006C20B4 /* Sources */,
-				1DDA2A1E21CA576A006C20B4 /* Frameworks */,
-				1DDA2A1F21CA576A006C20B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1DDA2A2321CA576A006C20B4 /* PBXTargetDependency */,
-			);
-			name = DTTableViewToolExmapleTests;
-			productName = DTTableViewToolExmapleTests;
-			productReference = 1DDA2A2121CA576A006C20B4 /* DTTableViewToolExmapleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1DDA2A2B21CA576A006C20B4 /* DTTableViewToolExmapleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DDA2A3B21CA576A006C20B4 /* Build configuration list for PBXNativeTarget "DTTableViewToolExmapleUITests" */;
-			buildPhases = (
-				1DDA2A2821CA576A006C20B4 /* Sources */,
-				1DDA2A2921CA576A006C20B4 /* Frameworks */,
-				1DDA2A2A21CA576A006C20B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1DDA2A2E21CA576A006C20B4 /* PBXTargetDependency */,
-			);
-			name = DTTableViewToolExmapleUITests;
-			productName = DTTableViewToolExmapleUITests;
-			productReference = 1DDA2A2C21CA576A006C20B4 /* DTTableViewToolExmapleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -300,14 +220,6 @@
 				TargetAttributes = {
 					1DDA2A0821CA5767006C20B4 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					1DDA2A2021CA576A006C20B4 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 1DDA2A0821CA5767006C20B4;
-					};
-					1DDA2A2B21CA576A006C20B4 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 1DDA2A0821CA5767006C20B4;
 					};
 				};
 			};
@@ -325,8 +237,6 @@
 			projectRoot = "";
 			targets = (
 				1DDA2A0821CA5767006C20B4 /* DTTableViewToolExmaple */,
-				1DDA2A2021CA576A006C20B4 /* DTTableViewToolExmapleTests */,
-				1DDA2A2B21CA576A006C20B4 /* DTTableViewToolExmapleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -341,20 +251,6 @@
 				1DDA2A1621CA5769006C20B4 /* Assets.xcassets in Resources */,
 				1DDA2A1421CA5767006C20B4 /* Main.storyboard in Resources */,
 				1DDA2A6621CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DDA2A1F21CA576A006C20B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DDA2A2A21CA576A006C20B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,41 +295,11 @@
 				1DDA2A4D21CA57B2006C20B4 /* DTTableViewController.m in Sources */,
 				1DDA2A5A21CA5AF2006C20B4 /* FLSettingItemTableViewCell.m in Sources */,
 				1DDA2A5121CA57B2006C20B4 /* DTTableDataSource.m in Sources */,
-				1DDA2A5621CA5940006C20B4 /* UIView+Frame.m in Sources */,
 				1DDA2A6121CA5BC0006C20B4 /* FLSimpleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DDA2A1D21CA576A006C20B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DDA2A2621CA576A006C20B4 /* DTTableViewToolExmapleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DDA2A2821CA576A006C20B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DDA2A3121CA576A006C20B4 /* DTTableViewToolExmapleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1DDA2A2321CA576A006C20B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DDA2A0821CA5767006C20B4 /* DTTableViewToolExmaple */;
-			targetProxy = 1DDA2A2221CA576A006C20B4 /* PBXContainerItemProxy */;
-		};
-		1DDA2A2E21CA576A006C20B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DDA2A0821CA5767006C20B4 /* DTTableViewToolExmaple */;
-			targetProxy = 1DDA2A2D21CA576A006C20B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1DDA2A1221CA5767006C20B4 /* Main.storyboard */ = {
@@ -603,80 +469,6 @@
 			};
 			name = Release;
 		};
-		1DDA2A3921CA576A006C20B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLMAEZYAP8;
-				INFOPLIST_FILE = DTTableViewToolExmapleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangluting.jinshanyun.DTTableViewToolExmapleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTTableViewToolExmaple.app/DTTableViewToolExmaple";
-			};
-			name = Debug;
-		};
-		1DDA2A3A21CA576A006C20B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLMAEZYAP8;
-				INFOPLIST_FILE = DTTableViewToolExmapleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangluting.jinshanyun.DTTableViewToolExmapleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTTableViewToolExmaple.app/DTTableViewToolExmaple";
-			};
-			name = Release;
-		};
-		1DDA2A3C21CA576A006C20B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLMAEZYAP8;
-				INFOPLIST_FILE = DTTableViewToolExmapleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangluting.jinshanyun.DTTableViewToolExmapleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DTTableViewToolExmaple;
-			};
-			name = Debug;
-		};
-		1DDA2A3D21CA576A006C20B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLMAEZYAP8;
-				INFOPLIST_FILE = DTTableViewToolExmapleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangluting.jinshanyun.DTTableViewToolExmapleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DTTableViewToolExmaple;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -694,24 +486,6 @@
 			buildConfigurations = (
 				1DDA2A3621CA576A006C20B4 /* Debug */,
 				1DDA2A3721CA576A006C20B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DDA2A3821CA576A006C20B4 /* Build configuration list for PBXNativeTarget "DTTableViewToolExmapleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DDA2A3921CA576A006C20B4 /* Debug */,
-				1DDA2A3A21CA576A006C20B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DDA2A3B21CA576A006C20B4 /* Build configuration list for PBXNativeTarget "DTTableViewToolExmapleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DDA2A3C21CA576A006C20B4 /* Debug */,
-				1DDA2A3D21CA576A006C20B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

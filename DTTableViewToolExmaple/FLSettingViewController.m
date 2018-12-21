@@ -10,7 +10,7 @@
 #import "FLSettingItemTableViewCell.h"
 #import "FLSettingItemLogoutCell.h"
 #import "NSObject+YYModel.h"
-#import "MLSafe.h"
+#import <WWBaseLib/DataHelp.h>
 #import "UIView+Frame.h"
 #import <YYCategories.h>
 
@@ -48,7 +48,7 @@
                                   @"funcType"   :@(FLSettingFuncTypeUtil),
                                   @"params"     :@""},
                                 @{@"title"      :@"清除缓存",
-                                  @"detail"     :SafeForString([self fileSize]),
+                                  @"detail"     :safeString([self fileSize]),
                                   @"funcType"   :@(FLSettingFuncTypeClearDiskData),
                                   @"params"     :@""},
 #endif
@@ -113,10 +113,10 @@
                     [self clearDiskData];
                     break;
                 case FLSettingFuncTypeUserAgreement:
-                    userAgreementmBlock(SafeForString(item.params));
+                    userAgreementmBlock(safeString(item.params));
                     break;
                 case FLSettingFuncTypeAppTest:
-                    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:SafeForString(item.params)]];
+                    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:safeString(item.params)]];
                     break;
                 case FLSettingFuncTypeUtil:
 //                    [[UIApplication sharedApplication] pushViewController:[FLUtilViewController new]];

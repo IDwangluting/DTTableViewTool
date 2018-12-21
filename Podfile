@@ -6,6 +6,7 @@ inhibit_all_warnings!
 def zyb_pods
     pod 'YYCategories','~> 1.0.4'
     pod 'YYModel','~> 1.0.4'
+    pod 'WWBaseLib','~> 0.0.1'
 end
 
 target 'DTTableViewToolExmaple' do

@@ -1,3 +1,26 @@
-PODFILE CHECKSUM: 81b0e263a2481c3057a79b0d837ff8bc5fda85d6
+PODS:
+  - WWBaseLib (0.0.2)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - WWBaseLib (~> 0.0.1)
+  - YYCategories (~> 1.0.4)
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WWBaseLib
+    - YYCategories
+    - YYModel
+
+SPEC CHECKSUMS:
+  WWBaseLib: 1888781d7bdb8b87826d3ad37997034bc685e2f3
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: aaed271c47cc61ebcbf43688d9af2de5362eafcb
 
 COCOAPODS: 1.5.3

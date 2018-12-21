@@ -8,7 +8,7 @@
 
 #import "FLSettingItemTableViewCell.h"
 #import <YYCategories.h>
-#import "MLSafe.h"
+#import <WWBaseLib/DataHelp.h>
 
 @interface FLSettingItemTableViewCell ()
 
@@ -36,8 +36,8 @@
     if (self.model == source.userData)  return ;
 
     self.model = source.userData ;
-    _titleLabel.text = SafeForString(self.model.title);
-    _contentLabel.text = SafeForString(self.model.detail);
+    _titleLabel.text = safeString(self.model.title);
+    _contentLabel.text = safeString(self.model.detail);
 }
 
 + (CGFloat)cellHeight {
