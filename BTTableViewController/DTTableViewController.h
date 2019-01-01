@@ -13,6 +13,7 @@
 @property (nonatomic, readonly) UITableView *tableView;
 
 @property (nonatomic, strong) id <DTTableDataSource>dataSource;
+@property (nonatomic, strong) NSMutableArray * rows;
 @property (nonatomic, assign) id <UITableViewDelegate>tableDelegate;
 
 - (void)scrollToBottom:(BOOL)animation;

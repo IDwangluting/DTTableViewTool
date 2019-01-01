@@ -1,21 +1,16 @@
 //
-//  LiveRoomListViewController.m
-//  HN-Nniu
+//  DTTableViewController+MethodEncapsulation.m
+//  DTTableViewToolExmaple
 //
-//  Created by mac on 2017/3/23.
-//  Copyright © 2017年 wangluting. All rights reserved.
+//  Created by luting on 2019/1/1.
+//  Copyright © 2019 luting. All rights reserved.
 //
 
-#import "DTBaseTableViewController.h"
+#import "DTTableViewController+MethodEncapsulation.h"
+#import "DTTableViewBaseCell.h"
+#import "BaseSource.h"
 
-@implementation DTBaseTableViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    _rows = [NSMutableArray arrayWithCapacity:4];
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.tableView.showsVerticalScrollIndicator = NO;
-}
+@implementation DTTableViewController (MethodEncapsulation)
 
 - (void)popToLeft  {
     [self.navigationController popViewControllerAnimated:YES];
@@ -52,13 +47,13 @@
                  insertRow:(NSInteger)insertRow {
     BaseSource *source = [self configCellForClass:className
                                              data:dataSource];
-    if (insertRow < 0 && _rows.count >= insertRow) {
+    if (insertRow < 0 && self.rows.count >= insertRow) {
         NSLog(@"参数有误：class:%@   row = %ld", self.class, (long) insertRow);
         return;
     }
-    if (_rows.count - 1 == insertRow || _rows.count == 0) {
+    if (self.rows.count - 1 == insertRow || self.rows.count == 0) {
         [self.rows addObject:source];
-    } else if (_rows.count - 1 > insertRow) {
+    } else if (self.rows.count - 1 > insertRow) {
         [self.rows insertObject:source atIndex:insertRow];
     }
 }
@@ -102,22 +97,6 @@
     [self.tableView beginUpdates];
     [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:animate];
     [self.tableView endUpdates];
-}
-
-- (BOOL)shouldAutorotate{
-    return YES;
-}
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations{
-    return UIInterfaceOrientationMaskAll;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
-    return UIInterfaceOrientationPortrait;
-}
-
-- (BOOL)prefersStatusBarHidden {
-    return false;
 }
 
 @end

@@ -13,6 +13,7 @@
 #import <WWBaseLib/DataHelp.h>
 #import "UIView+Frame.h"
 #import <YYCategories.h>
+#import "DTTableViewController+MethodEncapsulation.h"
 
 @interface FLSettingViewController ()<UITabBarControllerDelegate>
 

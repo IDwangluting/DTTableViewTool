@@ -11,18 +11,21 @@
 #import "DTBaseAction.h"
 #import "UIView+Frame.h"
 
-@interface DTTableViewController () <UITableViewDelegate> {
+@interface DTTableViewController () <UITableViewDelegate>
+@end
+
+@implementation DTTableViewController {
     CGPoint _contentOffset;
     CGSize _contentSize;
     UITableView *_tableView;
 }
-@end
-
-@implementation DTTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadTableView];
+    _rows = [NSMutableArray arrayWithCapacity:4];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.showsVerticalScrollIndicator = NO;
 }
 
 - (void)viewWillAppear:(BOOL)animated{

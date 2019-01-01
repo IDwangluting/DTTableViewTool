@@ -1,22 +1,21 @@
 //
-//  LiveRoomListViewController.h
-//  HN-Nniu
+//  DTTableViewController+MethodEncapsulation.h
+//  DTTableViewToolExmaple
 //
-//  Created by mac on 2017/3/23.
-//  Copyright © 2017年 wangluting. All rights reserved.
+//  Created by luting on 2019/1/1.
+//  Copyright © 2019 luting. All rights reserved.
 //
 
 #import "DTTableViewController.h"
-#import "DTTableViewBaseCell.h"
+
+NS_ASSUME_NONNULL_BEGIN
 
 #define ADD_CELL(CLASS,OBJ)            [self initCellForClass:[CLASS class] data:OBJ]
 #define ADD_CELLES(ClassArray,OBJS)    [self initCellForClasses:ClassArray datas:OBJS]
 #define INSERT_CELL(CLASS,OBJ,ROW)     [self insertCellForClass:CLASS data:OBJ insertRow:ROW]
 #define INSERT_CELLES(CLASS,OBJS,ROWS) [self insertCellsForClasss:CLASS datas:OBJ insertRows:ROWS]
 
-@interface DTBaseTableViewController : DTTableViewController
-
-@property(nonatomic, strong) NSMutableArray *rows;
+@interface DTTableViewController (MethodEncapsulation)
 
 - (void)scrollToTop:(BOOL)animation;
 
@@ -41,4 +40,8 @@
 - (void)insertRowsAtIndexPaths:(NSArray *)indexPaths
                        animate:(UITableViewRowAnimation)animate;
 
+
+
 @end
+
+NS_ASSUME_NONNULL_END

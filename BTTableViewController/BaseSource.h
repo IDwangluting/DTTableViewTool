@@ -16,7 +16,7 @@
 @property (nonatomic, strong)  UIColor *backgroundColor;//cell背景颜色
 @property (nonatomic, strong) id userData; 
 @property (nonatomic, assign) Class cellClass;//用来绑定哪个cell
-@property (nonatomic) CGFloat flexibleHeight;//cell的固定高度
+@property (nonatomic) double flexibleHeight;//cell的固定高度
 @property (nonatomic) BOOL loadFromNib;//从nib 加载 default NO
 
 + (Class)cellForClass;
