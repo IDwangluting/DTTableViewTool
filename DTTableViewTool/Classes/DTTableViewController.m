@@ -9,7 +9,7 @@
 #import "DTTableViewController.h"
 #import "DTTableViewBaseCell.h"
 #import "DTBaseAction.h"
-#import "UIView+Frame.h"
+#import <WWBaseLib/UIView+Frame.h>
 
 @interface DTTableViewController () <UITableViewDelegate>
 @end

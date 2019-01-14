@@ -16,5 +16,16 @@
     "ios": "8.0"
   },
   "source_files": "DTTableViewTool/Classes/**/*",
-  "frameworks": "UIKit"
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYModel": [
+      "~> 1.0.4"
+    ],
+    "YYCategories": [
+      "~> 1.0.4"
+    ],
+    "WWBaseLib": [
+      "0.0.2"
+    ]
+  }
 }

@@ -20,7 +20,7 @@
 		1DDA2A6121CA5BC0006C20B4 /* FLSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5F21CA5BC0006C20B4 /* FLSimpleModel.m */; };
 		1DDA2A6521CA5BE4006C20B4 /* FLSettingItemLogoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A6221CA5BE4006C20B4 /* FLSettingItemLogoutCell.m */; };
 		1DDA2A6621CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A6421CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib */; };
-		BC3353B9C55590F9FC72209E /* libPods-DTTableViewToolExmaple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */; };
+		D845191CE1CD0FA4F90CAAB6 /* libPods-DTTableViewToolExmaple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A651A96B1AF80A8041B36B50 /* libPods-DTTableViewToolExmaple.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,6 @@
 		1DDA2A1B21CA5769006C20B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DDA2A2521CA576A006C20B4 /* DTTableViewToolExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTableViewToolExmapleTests.m; sourceTree = "<group>"; };
 		1DDA2A2721CA576A006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DDA2A3021CA576A006C20B4 /* DTTableViewToolExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTableViewToolExmapleUITests.m; sourceTree = "<group>"; };
-		1DDA2A3221CA576A006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDA2A4121CA57B2006C20B4 /* DTBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBaseTableViewCell.h; sourceTree = "<group>"; };
 		1DDA2A4721CA57B2006C20B4 /* DTBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseTableViewCell.m; sourceTree = "<group>"; };
 		1DDA2A5721CA5AF1006C20B4 /* FLSettingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSettingItemTableViewCell.m; sourceTree = "<group>"; };
@@ -50,9 +48,9 @@
 		1DDA2A6221CA5BE4006C20B4 /* FLSettingItemLogoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSettingItemLogoutCell.m; sourceTree = "<group>"; };
 		1DDA2A6321CA5BE4006C20B4 /* FLSettingItemLogoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSettingItemLogoutCell.h; sourceTree = "<group>"; };
 		1DDA2A6421CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLSettingItemLogoutCell.xib; sourceTree = "<group>"; };
-		41510E0F33D2CB90470359D5 /* Pods-DTTableViewToolExmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.debug.xcconfig"; sourceTree = "<group>"; };
-		C33E0532D9F6DE80370C1FCA /* Pods-DTTableViewToolExmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.release.xcconfig"; sourceTree = "<group>"; };
-		C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTTableViewToolExmaple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A651A96B1AF80A8041B36B50 /* libPods-DTTableViewToolExmaple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTTableViewToolExmaple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB37E6562BD7691E08CC6C7E /* Pods-DTTableViewToolExmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.release.xcconfig"; sourceTree = "<group>"; };
+		D922F420368BF3F45AB7BDD4 /* Pods-DTTableViewToolExmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3353B9C55590F9FC72209E /* libPods-DTTableViewToolExmaple.a in Frameworks */,
+				D845191CE1CD0FA4F90CAAB6 /* libPods-DTTableViewToolExmaple.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +70,6 @@
 			children = (
 				1DDA2A0B21CA5767006C20B4 /* DTTableViewToolExmaple */,
 				1DDA2A2421CA576A006C20B4 /* DTTableViewToolExmapleTests */,
-				1DDA2A2F21CA576A006C20B4 /* DTTableViewToolExmapleUITests */,
 				1DDA2A0A21CA5767006C20B4 /* Products */,
 				21D8170FEC7EFBB0B1E95EEB /* Pods */,
 				C32B957477FCC64D80FB1E61 /* Frameworks */,
@@ -124,20 +121,11 @@
 			path = DTTableViewToolExmapleTests;
 			sourceTree = "<group>";
 		};
-		1DDA2A2F21CA576A006C20B4 /* DTTableViewToolExmapleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1DDA2A3021CA576A006C20B4 /* DTTableViewToolExmapleUITests.m */,
-				1DDA2A3221CA576A006C20B4 /* Info.plist */,
-			);
-			path = DTTableViewToolExmapleUITests;
-			sourceTree = "<group>";
-		};
 		21D8170FEC7EFBB0B1E95EEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				41510E0F33D2CB90470359D5 /* Pods-DTTableViewToolExmaple.debug.xcconfig */,
-				C33E0532D9F6DE80370C1FCA /* Pods-DTTableViewToolExmaple.release.xcconfig */,
+				D922F420368BF3F45AB7BDD4 /* Pods-DTTableViewToolExmaple.debug.xcconfig */,
+				BB37E6562BD7691E08CC6C7E /* Pods-DTTableViewToolExmaple.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -145,7 +133,7 @@
 		C32B957477FCC64D80FB1E61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */,
+				A651A96B1AF80A8041B36B50 /* libPods-DTTableViewToolExmaple.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -391,7 +379,7 @@
 		};
 		1DDA2A3621CA576A006C20B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41510E0F33D2CB90470359D5 /* Pods-DTTableViewToolExmaple.debug.xcconfig */;
+			baseConfigurationReference = D922F420368BF3F45AB7BDD4 /* Pods-DTTableViewToolExmaple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -409,7 +397,7 @@
 		};
 		1DDA2A3721CA576A006C20B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C33E0532D9F6DE80370C1FCA /* Pods-DTTableViewToolExmaple.release.xcconfig */;
+			baseConfigurationReference = BB37E6562BD7691E08CC6C7E /* Pods-DTTableViewToolExmaple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

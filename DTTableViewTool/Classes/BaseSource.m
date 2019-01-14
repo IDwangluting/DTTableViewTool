@@ -11,7 +11,7 @@
 @interface BaseSource () {
     CGSize _baseSize;
     CGFloat _widthForHeight;
-    CGFloat _flexibleHeight;
+    double  _flexibleHeight;
 }
 
 @property (nonatomic, assign) CGSize baseSize;
