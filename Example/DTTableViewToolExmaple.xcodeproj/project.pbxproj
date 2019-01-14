@@ -13,19 +13,13 @@
 		1DDA2A1621CA5769006C20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A1521CA5769006C20B4 /* Assets.xcassets */; };
 		1DDA2A1921CA5769006C20B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A1721CA5769006C20B4 /* LaunchScreen.storyboard */; };
 		1DDA2A1C21CA5769006C20B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A1B21CA5769006C20B4 /* main.m */; };
-		1DDA2A4D21CA57B2006C20B4 /* DTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A3F21CA57B2006C20B4 /* DTTableViewController.m */; };
-		1DDA2A4E21CA57B2006C20B4 /* DTTableViewBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4021CA57B2006C20B4 /* DTTableViewBaseCell.m */; };
-		1DDA2A4F21CA57B2006C20B4 /* BaseSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4521CA57B2006C20B4 /* BaseSource.m */; };
 		1DDA2A5021CA57B2006C20B4 /* DTBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4721CA57B2006C20B4 /* DTBaseTableViewCell.m */; };
-		1DDA2A5121CA57B2006C20B4 /* DTTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4A21CA57B2006C20B4 /* DTTableDataSource.m */; };
-		1DDA2A5321CA57B2006C20B4 /* DTBaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A4C21CA57B2006C20B4 /* DTBaseAction.m */; };
 		1DDA2A5A21CA5AF2006C20B4 /* FLSettingItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5721CA5AF1006C20B4 /* FLSettingItemTableViewCell.m */; };
 		1DDA2A5B21CA5AF2006C20B4 /* FLSettingItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5921CA5AF2006C20B4 /* FLSettingItemTableViewCell.xib */; };
 		1DDA2A5E21CA5B11006C20B4 /* FLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5D21CA5B11006C20B4 /* FLSettingViewController.m */; };
 		1DDA2A6121CA5BC0006C20B4 /* FLSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A5F21CA5BC0006C20B4 /* FLSimpleModel.m */; };
 		1DDA2A6521CA5BE4006C20B4 /* FLSettingItemLogoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDA2A6221CA5BE4006C20B4 /* FLSettingItemLogoutCell.m */; };
 		1DDA2A6621CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDA2A6421CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib */; };
-		1DF44C7021DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF44C6F21DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.m */; };
 		BC3353B9C55590F9FC72209E /* libPods-DTTableViewToolExmaple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */; };
 /* End PBXBuildFile section */
 
@@ -44,18 +38,8 @@
 		1DDA2A2721CA576A006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DDA2A3021CA576A006C20B4 /* DTTableViewToolExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTableViewToolExmapleUITests.m; sourceTree = "<group>"; };
 		1DDA2A3221CA576A006C20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DDA2A3F21CA57B2006C20B4 /* DTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableViewController.m; sourceTree = "<group>"; };
-		1DDA2A4021CA57B2006C20B4 /* DTTableViewBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableViewBaseCell.m; sourceTree = "<group>"; };
 		1DDA2A4121CA57B2006C20B4 /* DTBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBaseTableViewCell.h; sourceTree = "<group>"; };
-		1DDA2A4321CA57B2006C20B4 /* DTBaseAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBaseAction.h; sourceTree = "<group>"; };
-		1DDA2A4421CA57B2006C20B4 /* DTTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableDataSource.h; sourceTree = "<group>"; };
-		1DDA2A4521CA57B2006C20B4 /* BaseSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSource.m; sourceTree = "<group>"; };
-		1DDA2A4621CA57B2006C20B4 /* DTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableViewController.h; sourceTree = "<group>"; };
 		1DDA2A4721CA57B2006C20B4 /* DTBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseTableViewCell.m; sourceTree = "<group>"; };
-		1DDA2A4821CA57B2006C20B4 /* DTTableViewBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableViewBaseCell.h; sourceTree = "<group>"; };
-		1DDA2A4921CA57B2006C20B4 /* BaseSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSource.h; sourceTree = "<group>"; };
-		1DDA2A4A21CA57B2006C20B4 /* DTTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableDataSource.m; sourceTree = "<group>"; };
-		1DDA2A4C21CA57B2006C20B4 /* DTBaseAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseAction.m; sourceTree = "<group>"; };
 		1DDA2A5721CA5AF1006C20B4 /* FLSettingItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSettingItemTableViewCell.m; sourceTree = "<group>"; };
 		1DDA2A5821CA5AF1006C20B4 /* FLSettingItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSettingItemTableViewCell.h; sourceTree = "<group>"; };
 		1DDA2A5921CA5AF2006C20B4 /* FLSettingItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLSettingItemTableViewCell.xib; sourceTree = "<group>"; };
@@ -66,8 +50,6 @@
 		1DDA2A6221CA5BE4006C20B4 /* FLSettingItemLogoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSettingItemLogoutCell.m; sourceTree = "<group>"; };
 		1DDA2A6321CA5BE4006C20B4 /* FLSettingItemLogoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSettingItemLogoutCell.h; sourceTree = "<group>"; };
 		1DDA2A6421CA5BE4006C20B4 /* FLSettingItemLogoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLSettingItemLogoutCell.xib; sourceTree = "<group>"; };
-		1DF44C6E21DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTTableViewController+MethodEncapsulation.h"; sourceTree = "<group>"; };
-		1DF44C6F21DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DTTableViewController+MethodEncapsulation.m"; sourceTree = "<group>"; };
 		41510E0F33D2CB90470359D5 /* Pods-DTTableViewToolExmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.debug.xcconfig"; sourceTree = "<group>"; };
 		C33E0532D9F6DE80370C1FCA /* Pods-DTTableViewToolExmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTTableViewToolExmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTTableViewToolExmaple/Pods-DTTableViewToolExmaple.release.xcconfig"; sourceTree = "<group>"; };
 		C581CD5B80CE114F6DFEEE5E /* libPods-DTTableViewToolExmaple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTTableViewToolExmaple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +70,6 @@
 		1DDA2A0021CA5767006C20B4 = {
 			isa = PBXGroup;
 			children = (
-				1DDA2A3E21CA57B2006C20B4 /* BTTableViewController */,
 				1DDA2A0B21CA5767006C20B4 /* DTTableViewToolExmaple */,
 				1DDA2A2421CA576A006C20B4 /* DTTableViewToolExmapleTests */,
 				1DDA2A2F21CA576A006C20B4 /* DTTableViewToolExmapleUITests */,
@@ -150,25 +131,6 @@
 				1DDA2A3221CA576A006C20B4 /* Info.plist */,
 			);
 			path = DTTableViewToolExmapleUITests;
-			sourceTree = "<group>";
-		};
-		1DDA2A3E21CA57B2006C20B4 /* BTTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				1DDA2A4321CA57B2006C20B4 /* DTBaseAction.h */,
-				1DDA2A4C21CA57B2006C20B4 /* DTBaseAction.m */,
-				1DDA2A4921CA57B2006C20B4 /* BaseSource.h */,
-				1DDA2A4521CA57B2006C20B4 /* BaseSource.m */,
-				1DDA2A4421CA57B2006C20B4 /* DTTableDataSource.h */,
-				1DDA2A4A21CA57B2006C20B4 /* DTTableDataSource.m */,
-				1DDA2A4821CA57B2006C20B4 /* DTTableViewBaseCell.h */,
-				1DDA2A4021CA57B2006C20B4 /* DTTableViewBaseCell.m */,
-				1DDA2A4621CA57B2006C20B4 /* DTTableViewController.h */,
-				1DDA2A3F21CA57B2006C20B4 /* DTTableViewController.m */,
-				1DF44C6E21DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.h */,
-				1DF44C6F21DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.m */,
-			);
-			path = BTTableViewController;
 			sourceTree = "<group>";
 		};
 		21D8170FEC7EFBB0B1E95EEB /* Pods */ = {
@@ -286,15 +248,9 @@
 				1DDA2A1C21CA5769006C20B4 /* main.m in Sources */,
 				1DDA2A5021CA57B2006C20B4 /* DTBaseTableViewCell.m in Sources */,
 				1DDA2A0E21CA5767006C20B4 /* AppDelegate.m in Sources */,
-				1DDA2A4F21CA57B2006C20B4 /* BaseSource.m in Sources */,
-				1DDA2A5321CA57B2006C20B4 /* DTBaseAction.m in Sources */,
 				1DDA2A6521CA5BE4006C20B4 /* FLSettingItemLogoutCell.m in Sources */,
-				1DDA2A4E21CA57B2006C20B4 /* DTTableViewBaseCell.m in Sources */,
 				1DDA2A5E21CA5B11006C20B4 /* FLSettingViewController.m in Sources */,
-				1DDA2A4D21CA57B2006C20B4 /* DTTableViewController.m in Sources */,
 				1DDA2A5A21CA5AF2006C20B4 /* FLSettingItemTableViewCell.m in Sources */,
-				1DDA2A5121CA57B2006C20B4 /* DTTableDataSource.m in Sources */,
-				1DF44C7021DB2CD2007BEBC4 /* DTTableViewController+MethodEncapsulation.m in Sources */,
 				1DDA2A6121CA5BC0006C20B4 /* FLSimpleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

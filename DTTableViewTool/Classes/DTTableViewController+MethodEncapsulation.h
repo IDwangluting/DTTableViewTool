@@ -40,8 +40,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)insertRowsAtIndexPaths:(NSArray *)indexPaths
                        animate:(UITableViewRowAnimation)animate;
 
-
-
 @end
 
 NS_ASSUME_NONNULL_END
