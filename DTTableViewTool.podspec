@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DTTableViewTool'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'DTTableViewTool is tool lib.'
   s.description      = <<-DESC
     DTTableViewTool is tool lib to use
@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.dependency 'YYModel','~> 1.0.4'
   s.dependency 'YYCategories','~> 1.0.4'
-  s.dependency 'WWBaseLib','0.0.2'
+  s.dependency 'WWBaseLib'
 
 end

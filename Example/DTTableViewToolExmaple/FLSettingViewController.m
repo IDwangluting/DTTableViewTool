@@ -71,7 +71,7 @@
     for (NSObject * item in [self loadLocalData]) {
         ADD_CELL(FLSettingItemTableViewCell,item);
     }
-    ADD_CELL(FLSettingItemLogoutCell,nil);
+    ADD_CELL(FLSettingItemLogoutCell,@"");
     [self reloadDataSource];
 #if DEBUG
     [self versionView];
