@@ -14,6 +14,7 @@
 #import "UIView+Frame.h"
 #import <YYCategories.h>
 #import "DTTableViewController+MethodEncapsulation.h"
+#import "DTBaseTableViewCell.h"
 
 @interface FLSettingViewController ()<UITabBarControllerDelegate>
 
@@ -68,10 +69,15 @@
 }
 
 - (void)loadSubView {
+    BaseSource *source = [self configCellForClass:[DTBaseTableViewCell class] data:@""];
+    source.loadFromNib = false;
+    [self.rows addObject:source];
+    
     for (NSObject * item in [self loadLocalData]) {
         ADD_CELL(FLSettingItemTableViewCell,item);
     }
     ADD_CELL(FLSettingItemLogoutCell,@"");
+
     [self reloadDataSource];
 #if DEBUG
     [self versionView];
