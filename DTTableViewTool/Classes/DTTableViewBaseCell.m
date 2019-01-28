@@ -98,7 +98,7 @@
 }
 
 - (CGFloat)cellHeight {
-    return 0.0f;
+    return [self.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height + 1;
 }
 
 @end

@@ -40,8 +40,8 @@
     _contentLabel.text = safeString(self.model.detail);
 }
 
-+ (CGFloat)cellHeight {
-    return  50 ;
+- (CGFloat)cellHeight {
+    return [self systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height + 1;
 }
 
 @end

@@ -30,8 +30,8 @@
    self.action.detailBlock(@YES, self, self.indexPath);
 }
 
-+ (CGFloat)cellHeight {
-    return  106 ;
-}
 
+- (CGFloat)cellHeight {
+    return [self.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height;
+}
 @end

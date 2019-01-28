@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define ADD_CELL(CLASS,OBJ)            [self initCellForClass:[CLASS class] data:OBJ]
+#define ADD_CELL(CLASS,OBJ,isUseNib)   [self initCellForClass:[CLASS class] data:OBJ useNib:isUseNib];
 #define ADD_CELLES(ClassArray,OBJS)    [self initCellForClasses:ClassArray datas:OBJS]
 #define INSERT_CELL(CLASS,OBJ,ROW)     [self insertCellForClass:CLASS data:OBJ insertRow:ROW]
 #define INSERT_CELLES(CLASS,OBJS,ROWS) [self insertCellsForClasss:CLASS datas:OBJ insertRows:ROWS]
@@ -19,15 +19,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)scrollToTop:(BOOL)animation;
 
-- (void)initCellForClass:(Class)className data:(id)data;
+- (void)initCellForClass:(Class)className
+                    data:(id)data
+                  useNib:(BOOL)useNib;
 
-- (void)initCellForClasses:(NSArray *)classNames datas:(NSArray *)datas;
+- (void)initCellForClasses:(NSArray *)classNames
+                     datas:(NSArray *)datas;
 
 - (void)reloadDataSource;
 
 - (void)reloadSectionsDataSource;
 
-- (BaseSource *)configCellForClass:(Class)className data:(id)data;
+- (BaseSource *)configCellForClass:(Class)className
+                              data:(id)data
+                            useNib:(BOOL)useNib;
 
 - (void)insertCellForClass:(Class)className
                 dataSource:(id)dataSource

@@ -69,14 +69,11 @@
 }
 
 - (void)loadSubView {
-    BaseSource *source = [self configCellForClass:[DTBaseTableViewCell class] data:@""];
-    source.loadFromNib = false;
-    [self.rows addObject:source];
-    
+    ADD_CELL(DTBaseTableViewCell,@"",false);
     for (NSObject * item in [self loadLocalData]) {
-        ADD_CELL(FLSettingItemTableViewCell,item);
+        ADD_CELL(FLSettingItemTableViewCell,item,YES);
     }
-    ADD_CELL(FLSettingItemLogoutCell,@"");
+    ADD_CELL(FLSettingItemLogoutCell,@"",YES);
 
     [self reloadDataSource];
 #if DEBUG

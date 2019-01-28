@@ -18,8 +18,8 @@
     [super setSelected:selected animated:animated];
 }
 
-+ (CGFloat)cellHeight {
-    return  50 ;
++(CGFloat)cellHeight {
+    return 80 ;
 }
 
 @end

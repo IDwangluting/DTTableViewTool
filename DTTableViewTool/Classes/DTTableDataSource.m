@@ -122,8 +122,7 @@ const float rowHeight = 60.0f;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if(_sections.count || self.sectionCount > 0) {
-        NSArray* rowArray = [_rows objectAtIndex:section];
-        return [rowArray count];
+        return [[_rows objectAtIndex:section] count];
     }
     return [_rows count];
 }
@@ -138,15 +137,16 @@ const float rowHeight = 60.0f;
               itemForRowAtIndexPath:[NSIndexPath indexPathForRow:indexPath.row
                                                        inSection:indexPath.section]];
     Class class = nil;
-    NSString* identifier = nil;
-    UITableViewCell* cell = nil;
+    NSString * identifier = nil;
+    UITableViewCell * cell = nil;
     UINib *nib = nil;
     if ([baseSource respondsToSelector:@selector(cellNib)]){
         nib = [baseSource cellNib];
     }
     if(nil != nib){
         class = [baseSource cellClass];;//
-        if (!class)  class = [[baseSource class] cellForClass];
+        if (!class)
+            class = [[baseSource class] cellForClass];
         identifier = NSStringFromClass(class);
         [tableView registerNib:nib forCellReuseIdentifier:identifier];
         cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
@@ -168,14 +168,14 @@ const float rowHeight = 60.0f;
     assert(cell != NULL);
 #endif
     if([cell isKindOfClass:[DTTableViewBaseCell class]]) {
-        
+        DTTableViewBaseCell * tempCell = cell;
         [self tableView:tableView willDisplayCell:cell AtIndexPath:indexPath];
-        [(DTTableViewBaseCell*)cell setIndexPath:indexPath];
-        [(DTTableViewBaseCell*)cell updateCellWithSource:baseSource];
+        [tempCell setIndexPath:indexPath];
+        [tempCell updateCellWithSource:baseSource];
         if ([self hasActionForClass:class]) {
-            [(DTTableViewBaseCell*)cell setAction:[self actionForClass:class]];
+            [tempCell setAction:[self actionForClass:class]];
         }
-        [(DTTableViewBaseCell*)cell setHightedItem:[self hightedValueAtIndexPath:indexPath]];
+        [tempCell setHightedItem:[self hightedValueAtIndexPath:indexPath]];
     }
     return cell;
 }
@@ -194,22 +194,18 @@ const float rowHeight = 60.0f;
     [cell viewWillDisplay];
 }
 
-- (void)DTTableView:(UITableView *)tableView didEndDisplayingCell:(DTTableViewBaseCell *)cell
-  forRowAtIndexPath:(NSIndexPath*)indexPath {
+- (void)DTTableView:(UITableView *)tableView didEndDisplayingCell:(DTTableViewBaseCell *)cell forRowAtIndexPath:(NSIndexPath*)indexPath {
     [cell viweEndDisplaying];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (NSInteger)tableView:(UITableView*)tableView sectionForSectionIndexTitle:(NSString*)title
-               atIndex:(NSInteger)sectionIndex {
+- (NSInteger)tableView:(UITableView*)tableView sectionForSectionIndexTitle:(NSString*)title atIndex:(NSInteger)sectionIndex {
     NSUInteger index = [_sections indexOfObject:title];
     if(index == NSNotFound)return 0;
     return index;
 }
 
-
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell*)cell
-      AtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell*)cell  AtIndexPath:(NSIndexPath *)indexPath {
     if([cell isKindOfClass:[DTTableViewBaseCell class]]) {
         [(DTTableViewBaseCell*)cell setDelegate:self.delegate];
     }
@@ -219,16 +215,14 @@ const float rowHeight = 60.0f;
     return self.canEdit;
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle
-forRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         if (self.deleteBlock) {
             id object = [self tableView:tableView itemForRowAtIndexPath:indexPath];
             self.deleteBlock(object , self , indexPath);
         }
-    }
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
+    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }
 }

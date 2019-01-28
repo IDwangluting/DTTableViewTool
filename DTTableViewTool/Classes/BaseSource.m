@@ -27,7 +27,7 @@
 }
 
 + (NSString *)cellForIdentifier {
-    static NSString *baseSourceIdentifier = @"baseSourceIdentifier";
+    static NSString *baseSourceIdentifier = @"BaseSourceIdentifier";
     return baseSourceIdentifier;
 }
 
