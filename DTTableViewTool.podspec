@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DTTableViewTool'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'DTTableViewTool is tool lib.'
   s.description      = <<-DESC
     DTTableViewTool is tool lib to use
